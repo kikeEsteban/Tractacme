@@ -13,7 +13,7 @@ import nltk
 nltk.download()
 ```
 
-Como ejemplo ilustrativo, usaremos citas de filósofos extraídas de Wikiquote. Para parsear la web existe la librería  wikiquotes-python-api
+Como ejemplo ilustrativo, usaremos citas de filósofos extraídas de Wikiquote. Para parsear la web existe la librería  [wikiquotes-python-api](https://pypi.org/project/wikiquotes/)
 
 ```
 pip install wikiquotes
