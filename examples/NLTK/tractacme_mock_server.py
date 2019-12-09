@@ -17,19 +17,19 @@ Return the 10 most frequent words with their related sentences:
 
 dictionay = {
     ...
-    "love" : [2,4] # indexes of the relative setence list
-    "hate" : [4,6]
+    "love" : {"freq":2, "sents":[2,4]}, # indexes of the relative setence list
+    "hate" : {"freq":2, "sents":[4,6]},
     ...
 }
 
 sentences = [
- ["This is just the beginning", []],
- ["And this is the second sentence",["sentence"]]
- ["I want your love", ["love"]]
- ["A guiven sentence ", ["sentence"]]   
- ["love and hate is all what we feel", ["love","hate"]]
- ["Element 14",[]]
- ["I hate bananas",["hate"]]
+ {"text":"This is just the beginning"}, "words":["beginning"]},
+ {"text":"And this is the second sentence","words":["sentence"]}
+ {"text":"I want your love", "words":["love"]}
+ {"text":"A guiven sentence ", "words":["sentence"]}   
+ {"text":"love and hate is all what we feel", "words":["love","hate"]}
+ {"text":"Element 14","words":[]}
+ {"text":"I hate bananas","words":["hate"]}
  ...
 ]
 
